@@ -1,0 +1,9 @@
+@font-face {
+                font-family: "Lato-Regular"; font-style: normal; src: url('@/assets/fonts/Lato-Regular_1.ttf'); font-weight: 400
+            }
+@font-face {
+                font-family: "Lato-SemiBold"; font-style: normal; src: url('@/assets/fonts/Lato-SemiBold_1.ttf'); font-weight: 600
+            }
+@font-face {
+                font-family: "Lato-Medium"; font-style: normal; src: url('@/assets/fonts/Lato-Medium_1.ttf'); font-weight: 500
+            }
