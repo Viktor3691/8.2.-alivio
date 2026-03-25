@@ -43,8 +43,7 @@
 
     .container {
       width: 100%;
-      height: 100%;
-      padding: 0 208px;
+      padding: 0 271px;
     }
 
 
@@ -65,24 +64,24 @@ background: #FFFFFF;
 .header {
 width: 1920px;
 height: 980px;
-background: rgb(177, 219, 203);
+background: #FFFFFF;
 }
 .header_top-box_flex {
   display: flex;
 height: 85px;
-padding-top: 32px;
 background: #FFFFFF;
 }
 .header_top-logo {
   width: 80px;
   height: 23px;
+  padding-top: 31px;
 }
 .header_nav-flex {
   display: flex;
 width: 617px;
 height: 24px;
+margin-top: 31px;
 margin-left: 194px;
-background: #f1b7b7;
 }
 
 .header_nav-WhyAlivio {
@@ -127,55 +126,299 @@ padding-left: 89px;
 /* identical to box height */
 color: #292929;
 }
+.header_btn-flex {
+  display: flex;
+width: 314px;
+height: 55px;
+margin-top: 18px;
+margin-left: 244px;
+}
+.header_btn-text {
+  width: 67px;
+  height: 24px;
+padding-top: 13px;
+padding-left: 7px;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
 
-
-
-
-
-
-/* Divider */
-.Divider {
-top: 1px;
-bottom: 20px;
-border: 1px solid #D6D6D6;
-
+color: #000000;
+}
+.header_btn-primary {
+border: 1px solid #01996d;
+border-radius: 4px;
+padding: 13px 50px;
+width: 205px;
+height: 51px;
+margin-left: 48px;
+background: #01996d;
+}
+.header_btn-primary_text {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+text-align: center;
+color: #fff;
+}
+.header_content-outer {
+width: 1920px;
+height: 895px;
+background: #faf6ff;
+background-image: url(../images/BG.svg);
+}
+.header_content-text1 {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 65px;
+color: #01996d;
+padding-top: 176px;
+padding-bottom: 39px;
+padding-left: 282px;
+}
+.header_content-text2 {
+ font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 157%;
+color: #484848;
+line-height: 145%;
+width: 420px;
+height: 123px;
+margin-left: 275px;
+margin-bottom: 11px;
 }
 
+.header_content-btn_primary {
+border: 1px solid #01996d;
+border-radius: 4px;
+padding: 20px 50px;
+width: 227px;
+height: 65px;
+margin-left: 275px;
 
-
-
-
-
-
-
-
-
-
-
+background: #01996d;
+}
+.header_content-btn_primary-text {
+  width: 150px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 125%;
+text-align: center;
+color: #fff;
+}
 
     /* end header */
 
 .zero1 {
 width: 1920px;
 height: 176px;
-background: #f00606;
+background: rgba(0, 0, 0, 0.1), linear-gradient(138deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
     /* beginning PartNumber2 */
-.PartNumber2  {
+.Part2  {
 width: 1920px;
 height: 1386px;
 margin: 0 auto;
 background: bisque;
 }
+.Part2_content {
+width: 1391px;
+height: 327px;
+background: #e8ebe8;
+}
+.Part2_content-description {
+width: 150px;
+height: 38px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 157%;
+/* identical to box height, or 38px */
+
+color: #424242;
+}
+
+.Part2_content-boxFlex {
+  display: flex;
+}
+.Part2_text1 {
+  width: 584px;
+height: 158px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+
+color: #01996D;
+}
+
+.Part2_text2 {
+  width: 671px;
+height: 269px;
+margin-top: 21px;
+margin-left: 141px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #424242;
+}
+.Part2_box_Group-flex {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+/* Group01 */
+.Part2_box_Group1 {
+ width: 430px;
+height: 937px;
+background: #e6d3d3;
+
+}
+
+.number_n01 {
+  width: 269px;
+height: 150px;
+margin-left: 15px;
+background-image: url(../images/01.svg);
+background-repeat: no-repeat;
+}
+.number-text1 {
+  width: 100%;
+height: 45px;padding-top: 51px;
+padding-left: 78px;
+
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+/* identical to box height, or 45px */
+
+color: #000000;
+}
+.Part2_box_Group01-text1 {
+ font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #424242;
+margin-bottom: 50px;
+}
+.foto1 {
+width: 390px;
+margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+/* Group02 */
+.Part2_box_Group2 {
+ width: 430px;
+height: 750px;
+margin-top: 285px;
+background: #e6d3d3;
+
+}
+
+.number_n02 {
+  width: 157px;
+height: 225px;
+margin-left: 15px;
+background-image: url(../images/02.svg);
+background-repeat: no-repeat;
+}
+.number-text2 {
+  width: 100%;
+height: 45px;padding-top: 51px;
+padding-left: 78px;
+
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+/* identical to box height, or 45px */
+
+color: #000000;
+}
+/* Group03 */
+.Part2_box_Group3 {
+ width: 430px;
+height: 937px;
+margin-top: 57px;
+background: #e6d3d3;
+
+}
+.number_n03 {
+  width: 157px;
+height: 225px;
+margin-left: 15px;
+background-image: url(../images/03.svg);
+background-repeat: no-repeat;
+}
+.number-text3 {
+  width: 100%;
+height: 45px;padding-top: 51px;
+padding-left: 147px;
+
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+/* identical to box height, or 45px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* end PartNumber2 */
 
 .zero2 {
 width: 1920px;
 height: 44px;
-background: #f00606;
+background: rgba(0, 0, 0, 0.1), linear-gradient(138deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
     /* beginning  PartNumber3*/
-.PartNumber3 {
+.Part3 {
   width: 1920px;
 height: 922px;
 background: blueviolet;
@@ -184,11 +427,11 @@ background: blueviolet;
 .zero3 {
 width: 1920px;
 height: 120px;
-background: #f00606;
+background: rgba(0, 0, 0, 0.1), linear-gradient(138deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
     /* beginning   PartNumber4*/
-.PartNumber4 {
+.Part4 {
 width: 1920px;
 height: 648px;
 background: chartreuse;
@@ -198,7 +441,7 @@ margin: 0 auto;
 .zero4 {
 width: 1920px;
 height: 168px;
-background: #f00606;
+background: rgba(0, 0, 0, 0.1), linear-gradient(138deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
     /* beginning  footer*/
 .footer {
