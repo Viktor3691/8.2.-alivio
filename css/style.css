@@ -326,12 +326,6 @@ margin-left: 20px;
 
 
 
-
-
-
-
-
-
 /* Group02 */
 .Part2_box_Group2 {
  width: 430px;
@@ -397,12 +391,6 @@ width: 1920px;
 height: 44px;
 background: rgba(0, 0, 0, 0.1), linear-gradient(138deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
-
-
-
-
-
-
 
     /* beginning  Part3*/
 .Part3 {
@@ -517,16 +505,6 @@ border-radius: 5px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
     /* end PartNumber3*/
 .zero3 {
 width: 1920px;
@@ -534,23 +512,160 @@ height: 120px;
 background: rgba(0, 0, 0, 0.1), linear-gradient(138deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
+
+
     /* beginning   PartNumber4*/
 .Part4 {
 width: 1920px;
 height: 648px;
-background: chartreuse;
 margin: 0 auto;
 }
-    /* end  PartNumber4*/
+.Part4_box-flex {
+  display: flex;
+}
+.Part4-image {
+  width: 639px;
+  height: 573px;
+  margin-left: 64px;
+  background-image: url(../images/Image4.svg);
+  background-color: rgba(1,153,109, 0.199);
+}
+.Part4_box_text-flex {
+  display: flex;
+    flex-direction: column;
+    margin-left: 87px;
+}
+.Part4-text {
+ width: 170px;
+height: 39px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+/* or 39px */
+
+color: #424242;
+}
+.Part4-text1 {
+ width: 584px;
+height: 158px;
+margin-top: 10px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+/* or 79px */
+
+color: #01996D;
+}
+.Part4-text2 {
+ width: 530px;
+height: 81px;
+margin-top: 19px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #484848;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* end  Part4*/
+
 .zero4 {
 width: 1920px;
 height: 168px;
 background: rgba(0, 0, 0, 0.1), linear-gradient(138deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* beginning  footer*/
 .footer {
   width: 1920px;
 height: 654px;
-background: blue;
+background: #245852;
 }
-    /* end footer*/
+.footer-text {
+width: 108px;
+height: 55px;
+padding-top: 94px;
+padding-left: 6px;
+
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 55px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.footer-text1 {
+
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.ft1 {
+  width: 200px;
+  height: 30px;
+  padding-top: 118px;
+  padding-left: 2px;
+}
+
+.ft2 {
+  width: 200px;
+  height: 30px;
+  padding-top: 92px;
+}
+.ft3 {
+  width: 200px;
+  height: 30px;
+  padding-top: 86px;
+}
+.ft4 {
+  width: 200px;
+  height: 30px;
+  padding-top: 89px;
+  padding-left: 2;
+}
+  /* end footer*/
