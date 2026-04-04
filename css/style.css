@@ -16,13 +16,13 @@
       letter-spacing: 0;
     }
 
-    .scroll-container>div {
+    /* .scroll-container>div {
       width: 100%;
-    }
+    } */
 
-    .container>div {
+    /* .container>div {
       width: 100%;
-    }
+    } */
 
 
     html {
@@ -51,7 +51,7 @@
       width: 1920px;
       height: 5099px;
       background: #FFFFFF;
-      overflow: auto;
+      /* overflow: auto; */
       margin: 0 auto;
     }
     :root {
